@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/input_csv")
+df = pd.read_csv("data/input.csv")
 
 df["age_after_10_years"] = df["age"]+10
 
